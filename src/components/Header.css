@@ -1,0 +1,26 @@
+.herder{
+    background-color:  rgb(2, 2, 49);
+    height: 40px;
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    justify-items: center;
+}
+.herder ul{
+    display: flex;
+    gap: 150px;
+}
+
+.herder ul li:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 520px) {
+    .herder ul{
+        gap:20px;
+    }
+}

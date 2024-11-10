@@ -1,0 +1,111 @@
+.about{
+    height: 85.7vh;
+}
+.about h2{
+   margin-bottom: 100px;
+   margin-top: 20px;
+   color: rgb(2, 2, 49);
+   text-decoration: underline;
+   
+}
+
+.about h2{
+    font-weight: 900;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutt{
+    display: flex;
+    gap: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 100px;
+    justify-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.aboutt h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(2, 2, 49);
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.aboutt p {
+    font-weight: 600;
+    font-size: 20px;
+    width: 500px;
+    color: rgb(2, 2, 49);
+}
+.aboutt button{
+    background-color: rgb(2, 2, 49);
+    color: white;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 520px) {
+    .about{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .about h2{
+        margin-bottom: 10px;
+        margin-top: 20px;
+        color: rgb(2, 2, 49);
+        text-decoration: underline;
+     }
+     
+     .about h2{
+         font-weight: 900;
+         font-size: 30px;
+         justify-content: center;
+         text-align: center;
+     }
+     
+     .aboutt{
+         display: flex;
+         flex-direction: column;
+         padding-left: 20px;
+         padding-right: 20px;
+         margin-bottom: 20px;
+         justify-items: center;
+         justify-content: space-between;
+         text-decoration: none;
+     
+     }
+     .aboutt h1{
+         font-weight: 700;
+         font-size: 20px;
+         color: rgb(2, 2, 49);
+         justify-content: center;
+         text-align: center;
+         /* justify-content: center; */
+         /* text-align: center; */
+     }
+     .aboutt p {
+         font-weight: 600;
+         font-size: 20px;
+         width: 300px;
+         color: rgb(2, 2, 49);
+         justify-content: center;
+         text-align: center;
+     }
+     .aboutt button{
+         background-color: rgb(2, 2, 49);
+         color: white;
+         margin-top: 10px;
+         justify-content: center;
+         text-align: center;
+         width: 150px;
+         height: 50px;
+         margin-left: 70px;
+         border-radius: 10px;
+     }
+}
